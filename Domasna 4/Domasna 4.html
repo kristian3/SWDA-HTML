@@ -13,31 +13,68 @@
         <center><p>Phone Number<br/><input type="tel" name="telnumber" required></p></center>
         <center><p></p></center>
         <center><p>Address<br/><input type="adress" required></p></center>
-        <center><p>Select Size<br/><select dimension="Dimension">
-            <option value="Small">Small 9.99$</option>
-            <option value="Medium">Medium 14.99$</option>
-            <option value="Large">Large 19.99$</option>
-        </select></p></center>
-        <center><p><b><u>Pizza Types</u></b><br/>
-                <label>
-                    Pizza Quattro Stagione<input type="radio" name="pizza" value="Pizza Quattro Stagione" required/>
-                </label><br/>
-                <label>
-                    Pizza Vegetariana<input type="radio" name="pizza" value="Pizza Vegetariana" required/>
-                </label><br/>
-                <label>
-                    Pizza Margherita<input type="radio" name="pizza" value="Pizza Margherita" required/>
-                </label><br/>
-                <label>
-                    Capricciosa<input type="radio" name="pizza" value="Capricciosa" required/>
-                </label><br/>
-                <label>
-                    Pizza Vesuvio<input type="radio" name="pizza" value="Pizza Vesuvio" required/>
-                </label><br/>
-                <label>
-                    Macedonian Pizza<input type="radio" name="pizza" value="Macedonian Pizza" required/>
-                </label>
-                </p></center>
+        <center><table><b><u>Pizza types</u></b><br/>
+            <tr>
+                <td>Pizza Quattro Stagione</td>
+                <td><label>
+                        <input type="checkbox" name="pizza[]" value="Pizza Quattro Stagione"/><input type="number" placeholder="x1" step="1" min="1" max="5" id="number"><select dimension="Dimension">
+                                <option value="Small">Small 9.99$</option>
+                                <option value="Medium">Medium 14.99$</option>
+                                <option value="Large">Large 19.99$</option>
+                            </select>
+                    </label>
+            </tr>
+            <tr>
+                    <td>Pizza Vegetariana</td>
+                    <td><label>
+                            <input type="checkbox" name="pizza[]" value="Pizza Vegetariana"/><input type="number" placeholder="x1" step="1" min="1" max="5" id="number"><select dimension="Dimension">
+                                    <option value="Small">Small 9.99$</option>
+                                    <option value="Medium">Medium 14.99$</option>
+                                    <option value="Large">Large 19.99$</option>
+                                </select>
+                        </label></td>
+            </tr>
+            <tr>
+                    <td>Pizza Margherita</td>
+                    <td><label>
+                            <input type="checkbox" name="pizza[]" value="Pizza Margherita"/><input type="number" placeholder="x1" step="1" min="1" max="5" id="number"><select dimension="Dimension">
+                                    <option value="Small">Small 9.99$</option>
+                                    <option value="Medium">Medium 14.99$</option>
+                                    <option value="Large">Large 19.99$</option>
+                                </select>
+                        </label></td>
+            </tr>
+            <tr>
+                    <td>Capricciosa</td>
+                    <td><label>
+                            <input type="checkbox" name="pizza[]" value="Capricciosa"/><input type="number" placeholder="x1" step="1" min="1" max="5" id="number"><select dimension="Dimension">
+                                    <option value="Small">Small 9.99$</option>
+                                    <option value="Medium">Medium 14.99$</option>
+                                    <option value="Large">Large 19.99$</option>
+                                </select>
+                        </label></td>
+            </tr>
+            <tr>
+                    <td>Pizza Vesuvio</td>
+                    <td><label>
+                            <input type="checkbox" name="pizza[]" value="Pizza Vesuvio"/><input type="number" placeholder="x1" step="1" min="1" max="5" id="number"><select dimension="Dimension">
+                                    <option value="Small">Small 9.99$</option>
+                                    <option value="Medium">Medium 14.99$</option>
+                                    <option value="Large">Large 19.99$</option>
+                                </select>
+                        </label></td>
+            </tr>
+            <tr>
+                    <td>Macedonian Pizza</td>
+                    <td><label>
+                            <input type="checkbox" name="pizza[]" value="Macedonian Pizza"/><input type="number" placeholder="x1" step="1" min="1" max="5" id="number"><select dimension="Dimension">
+                                    <option value="Small">Small 9.99$</option>
+                                    <option value="Medium">Medium 14.99$</option>
+                                    <option value="Large">Large 19.99$</option>
+                                </select>
+                        </label></td>
+            </tr>
+        </table></center>
         <center>
             <p><b><u>Topping Choises</u></b><br/>Combination of 2 toppings for 0.99$<br/><table border="1">
                 <tr>
@@ -105,6 +142,8 @@
                         <option value="0.5l">0.5l(0.40$)</option>
                         <option value="1.25l">1.25l(0.99$)</option>
                         <option value="2l">2l(1.59$)</option>
+                        <option value="2x2l">2x2l(2.99$)</option>
+                        <option value="3x2l">3x2l(3.59)</option>
                         </select>
                     </td>
                     <td>Sprite<br/><select name="Drink">
@@ -112,6 +151,8 @@
                             <option value="0.5l">0.5l(0.40$)</option>
                             <option value="1.25l">1.25l(0.99$)</option>
                             <option value="2l">2l(1.59$)</option>
+                            <option value="2x2l">2x2l(2.99$)</option>
+                            <option value="3x2l">3x2l(3.59)</option>
                             </select>
                     </td>
                     <td>
@@ -120,6 +161,8 @@
                             <option value="0.5l">0.5l(0.40$)</option>
                             <option value="1.25l">1.25l(0.99$)</option>
                             <option value="2l">2l(1.59$)</option>
+                            <option value="2x2l">2x2l(2.99$)</option>
+                            <option value="3x2l">3x2l(3.59)</option>
                             </select>
                     </td>
                 </tr>
