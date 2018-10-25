@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Pizza Order Online</title>
+    </head>
+    <body text="white" background="http://www.ptownpizza.com/images/Food/Pizza/Pizza02.jpg">
+    <center><table style="width:12cm">
+        <tr>
+            <td style="background-color:tomato">    
+    <h1 color="white"><center>Pizza Order Online</center></h1>
+    <form>
+        <center><p>Name<br/><input type="text" requiered name="full_name" required></p></center>
+        <center><p>Phone Number<br/><input type="tel" name="telnumber" required></p></center>
+        <center><p></p></center>
+        <center><p>Address<br/><input type="adress" required></p></center>
+        <center><p>Select Size<br/><select dimension="Dimension">
+            <option value="Small">Small 9.99$</option>
+            <option value="Medium">Medium 14.99$</option>
+            <option value="Large">Large 19.99$</option>
+        </select></p></center>
+        <center><p><b><u>Pizza Types</u></b><br/>
+                <label>
+                    Pizza Quattro Stagione<input type="radio" name="pizza" value="Pizza Quattro Stagione" required/>
+                </label><br/>
+                <label>
+                    Pizza Vegetariana<input type="radio" name="pizza" value="Pizza Vegetariana" required/>
+                </label><br/>
+                <label>
+                    Pizza Margherita<input type="radio" name="pizza" value="Pizza Margherita" required/>
+                </label><br/>
+                <label>
+                    Capricciosa<input type="radio" name="pizza" value="Capricciosa" required/>
+                </label><br/>
+                <label>
+                    Pizza Vesuvio<input type="radio" name="pizza" value="Pizza Vesuvio" required/>
+                </label><br/>
+                <label>
+                    Macedonian Pizza<input type="radio" name="pizza" value="Macedonian Pizza" required/>
+                </label>
+                </p></center>
+        <center>
+            <p><b><u>Topping Choises</u></b><br/>Combination of 2 toppings for 0.99$<br/><table border="1">
+                <tr>
+                    <td>
+                        <label>
+                            Pepperoni<br/><input type="checkbox" name="topping[]" value="pepperoni"/>    
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            Extra Cheese<br/><input type="checkbox" name="topping[]" value="Extra Cheese"/>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            Ham<br/><input type="checkbox" name="topping[]" value="Ham"/>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            Pineapple<br/><input type="checkbox" name="topping[]" value="Pineapple"/>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            Onion<br/><input type="checkbox" name="topping[]" value="Onion"/>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                        <td>
+                            <label>
+                                Bacon<br/><input type="checkbox" name="topping[]" value="Bacon"/>
+                            </label>
+                        </td>
+                        <td>
+                            <label>
+                                Sausage<br/><input type="checkbox" name="topping[]" value="Sausage"/>
+                            </label>
+                        </td>
+                        <td>
+                            <label>
+                                Olives<br/><input type="checkbox" name="topping[]" value="Olives"/>
+                            </label>
+                        </td>
+                        <td>
+                            <label>
+                                Peppers<br/><input type="checkbox" name="topping[]" value="Pepper"/>
+                            </label>
+                        </td>
+                        <td>
+                            <label>
+                                Mushrooms<br/><input type="checkbox" name="topping[]" value="Mushrooms"/>
+                            </label>
+                        </td>
+                </tr>
+            </table></p>
+        </center>
+        <center>
+            <p><b><u>Drinks</u></b><br/><table>
+                <tr>
+                    <td>
+                        Coca Cola<br/><select name="Drink">
+                        <option></option>
+                        <option value="0.5l">0.5l(0.40$)</option>
+                        <option value="1.25l">1.25l(0.99$)</option>
+                        <option value="2l">2l(1.59$)</option>
+                        </select>
+                    </td>
+                    <td>Sprite<br/><select name="Drink">
+                            <option></option>
+                            <option value="0.5l">0.5l(0.40$)</option>
+                            <option value="1.25l">1.25l(0.99$)</option>
+                            <option value="2l">2l(1.59$)</option>
+                            </select>
+                    </td>
+                    <td>
+                        Fanta<br/><select name="Drink">
+                            <option></option>
+                            <option value="0.5l">0.5l(0.40$)</option>
+                            <option value="1.25l">1.25l(0.99$)</option>
+                            <option value="2l">2l(1.59$)</option>
+                            </select>
+                    </td>
+                </tr>
+                </table></p>
+        </center>
+        <center>
+            <button type="submit">Finish Order</button>
+            <button type="reset">Change Order</button>
+        </center>
+
+    </form></td></tr></table></center>    
+    </body>
+</html>
