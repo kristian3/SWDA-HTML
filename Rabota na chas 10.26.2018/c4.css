@@ -53,3 +53,20 @@ li.yellow {
 .iminja li .yellow {
     color: #a5803b;
 }
+
+.table {
+    width: 500px;
+    height: 500px;
+}
+
+.grey {
+    background-color: grey
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic
+}
