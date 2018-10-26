@@ -1,0 +1,55 @@
+/*
+selector {
+    property: value;
+    ...
+    property: value;
+}
+*/
+
+body {
+    background-color: #992727;
+    color: white;
+    font-size: 30px;
+    font-family: serif;
+}
+
+ /* span {
+    text-decoration: underline;
+    color: black;
+} */
+
+.yellow {
+    color: yellow;
+    /* text-decoration: none; */
+}
+
+.black {
+    color: black;
+    text-decoration: underline;
+}
+
+#paragraph {
+    font-style: italic
+}
+
+.blue {
+    color: blue
+}
+
+.iminja {
+    color: black;
+    list-style: none;
+    width: 200px;
+}
+
+.iminja li {
+    border-bottom: 1px solid white;
+}
+
+li.yellow {
+    color: grey
+}
+
+.iminja li .yellow {
+    color: #a5803b;
+}
