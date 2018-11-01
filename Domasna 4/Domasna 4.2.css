@@ -1,0 +1,21 @@
+/*
+selector {
+    property: value;
+    ...
+    property: value;
+}
+*/
+
+body {
+    background-color: #440000;
+    color: #e8eaed;
+}
+
+.table {
+    background-color: #440000;
+    height: 600px;
+}
+
+.fsize {
+    font-size: 25px;
+}
