@@ -1,21 +1,25 @@
 <!DOCTYPE html>
-<html> 
+<html lang="en"> 
     <head>
-        <title>Pizza Order Online</title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title class="naslov">Pizza Order Online</title>
+        <link rel="stylesheet" href="Domasna 4.css">
     </head>
     <body text="white" background="http://www.ptownpizza.com/images/Food/Pizza/Pizza02.jpg">
-    <center><table style="width:12cm">
+    <center><table class="table" border="4">
         <tr>
-            <td style="background-color:tomato">    
+            <td>    
     <h1 color="white"><center>Pizza Order Online</center></h1>
     <form>
         <center><p>Name<br/><input type="text" requiered name="full_name" required></p></center>
         <center><p>Phone Number<br/><input type="tel" name="telnumber" required></p></center>
         <center><p></p></center>
         <center><p>Address<br/><input type="adress" required></p></center>
-        <center><table><b><u>Pizza types</u></b><br/>
+        <center><table><b>Pizza types</b><br/>
             <tr>
-                <td>Pizza Quattro Stagione</td>
+                <td class="pizza">Pizza Quattro Stagione</td>
                 <td><label>
                         <input type="checkbox" name="pizza[]" value="Pizza Quattro Stagione"/><input type="number" placeholder="x1" step="1" min="1" max="5" id="number"><select dimension="Dimension">
                                 <option value="Small">Small 9.99$</option>
@@ -25,7 +29,7 @@
                     </label>
             </tr>
             <tr>
-                    <td>Pizza Vegetariana</td>
+                    <td class="pizza">Pizza Vegetariana</td>
                     <td><label>
                             <input type="checkbox" name="pizza[]" value="Pizza Vegetariana"/><input type="number" placeholder="x1" step="1" min="1" max="5" id="number"><select dimension="Dimension">
                                     <option value="Small">Small 9.99$</option>
@@ -35,7 +39,7 @@
                         </label></td>
             </tr>
             <tr>
-                    <td>Pizza Margherita</td>
+                    <td class="pizza">Pizza Margherita</td>
                     <td><label>
                             <input type="checkbox" name="pizza[]" value="Pizza Margherita"/><input type="number" placeholder="x1" step="1" min="1" max="5" id="number"><select dimension="Dimension">
                                     <option value="Small">Small 9.99$</option>
@@ -45,7 +49,7 @@
                         </label></td>
             </tr>
             <tr>
-                    <td>Capricciosa</td>
+                    <td class="pizza">Capricciosa</td>
                     <td><label>
                             <input type="checkbox" name="pizza[]" value="Capricciosa"/><input type="number" placeholder="x1" step="1" min="1" max="5" id="number"><select dimension="Dimension">
                                     <option value="Small">Small 9.99$</option>
@@ -55,7 +59,7 @@
                         </label></td>
             </tr>
             <tr>
-                    <td>Pizza Vesuvio</td>
+                    <td class="pizza">Pizza Vesuvio</td>
                     <td><label>
                             <input type="checkbox" name="pizza[]" value="Pizza Vesuvio"/><input type="number" placeholder="x1" step="1" min="1" max="5" id="number"><select dimension="Dimension">
                                     <option value="Small">Small 9.99$</option>
@@ -65,7 +69,7 @@
                         </label></td>
             </tr>
             <tr>
-                    <td>Macedonian Pizza</td>
+                    <td class="pizza">Macedonian Pizza</td>
                     <td><label>
                             <input type="checkbox" name="pizza[]" value="Macedonian Pizza"/><input type="number" placeholder="x1" step="1" min="1" max="5" id="number"><select dimension="Dimension">
                                     <option value="Small">Small 9.99$</option>
@@ -76,7 +80,7 @@
             </tr>
         </table></center>
         <center>
-            <p><b><u>Topping Choises</u></b><br/>Combination of 2 toppings for 0.99$<br/><table border="1">
+            <p><b>Topping Choises</b><br/>Combination of 2 toppings for 0.99$<br/><table border="1">
                 <tr>
                     <td>
                         <label>
@@ -134,7 +138,7 @@
             </table></p>
         </center>
         <center>
-            <p><b><u>Drinks</u></b><br/><table>
+            <p><b>Drinks</b><br/><table>
                 <tr>
                     <td>
                         Coca Cola<br/><select name="Drink">
