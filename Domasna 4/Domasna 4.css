@@ -1,0 +1,27 @@
+/*
+selector {
+    property: value;
+    ...
+    property: value;
+}
+*/
+
+body {
+    font-size: 20px;
+    font-family: serif;
+}
+
+.table {
+    background-color: tomato;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-left-color: white;
+    border-right-color: white;
+    width: 600px;
+}
+
+.pizza {
+    width: 200px;
+    text-decoration: underline;
+    font-style: italic;
+}
