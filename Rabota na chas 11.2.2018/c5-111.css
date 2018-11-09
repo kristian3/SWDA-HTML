@@ -1,0 +1,54 @@
+/*
+selector {
+    property: value;
+    ...
+    property: value;
+}
+*/
+
+body {
+    background-color: white;
+}
+
+.table {
+    width: 400px;
+    height: 400px;
+    border: 2px dashed red;
+}
+
+.td1 {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+.td2 {
+    color: green;
+    text-align: center;
+}
+
+.tr1 {
+    height: 40px;
+    width: 200px;
+    background-color: black;
+}
+
+.table2 {
+    width: 400px;
+    height: 400px;
+    border: 2px dashed green;
+
+}
+
+.table2 .td1 {
+    color: green;
+}
+
+.table2 .td2 {
+    color: red;
+}
+
+#purple {
+    color: purple;
+    text-align: center;
+}
