@@ -112,7 +112,7 @@ float: right;
     width: 1095px;
     height: 75px;
     background-color: orangered;
-    margin-left: 319px;
+    margin-left: 413px;
 }
 
 .main-orange a {
@@ -138,6 +138,15 @@ float: right;
     margin-top: 10px;
     height: 343px;
     float: left;
+    position: relative;
+}
+
+.tekst-bla {
+    position: absolute;
+    bottom: 500px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 .main-right img {
