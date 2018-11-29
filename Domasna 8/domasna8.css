@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #1d2c3f;
+    margin: 50px;
+}
+
+.main-container {
+    width: 1920px;
+    display:block;
+}
+
+.glaven {
+    width: 100%;
+}
+
+
+.new-flavour {
+    width: 470px;
+    height: 613px;
+    background-image: url(images/Layer\ 19.png);
+    float: left;
+}
+
+.summer {
+    color: #c2c2c4;
+    padding: 53px 0 0 173px;
+
+}
+
+.main-title {
+    padding: 14px 0 0 159px;
+    color: #4e4f53;
+}
+
+#vertical-line {
+    width: 48px;
+    height: 4px;
+    background-color: #4e4f53;
+    margin: 24px 0 0 210px;
+}
+
+.p-1 {
+    padding: 25px 0 0 102px;
+    font-size: 14px;
+    color: #7f8187;
+}
+
+.p-2 {
+    padding: 10px 0 0 136px;
+    font-size: 14px;
+    color: #7f8187;
+}
+
+.order-now {
+    width: 113px;
+    height: 32px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #478cba;
+    cursor: pointer;
+    margin: 344px 0 0 179px;
+}
+
+/**----------------------**/
+
+.box-burger {
+    width: 470px;
+    height: 589px;
+    background-color: green;
+    float: right;
+    margin: 0 620px 0 0;
+    border-radius: 12px;
+}
+
+.goren-del {
+    width: 100%;
+    height: 481px;
+    background-image: url(images/Layer\ 18\ copy.png);
+}
+
+.naslov {
+    color: #fff;
+    padding: 39px 0 0 40px;
+}
+.podnaslov {
+    color: #c6ddee;
+    font-size: 16px;
+    padding: 7px 0 0 40px;
+}
+.podnaslov2 {
+    color: #bcec8f;
+    font-size: 16px;
+    padding: 20px 0 0 40px;
+}
+.zvezda {
+    width: 92px;
+    height: 40px;
+    background-color: #ecc30a;
+    float: right;
+    margin-top: 53px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.forma {
+    width: 40%;
+    float: left;
+}
+.forma img {
+    padding: 9px 0 0 13px;
+}
+.brojki {
+    color: white;
+    display: block;
+    width: 40%;
+    float: right;
+    padding: 8px 0 0 0;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.dolen-del {
+    width: 100%;
+    height: 108px;
+    background-color: #f8f9fa;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.krug {
+    width: 48px;
+    height: 48px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 360px;
+    border-color: #8bc058;
+    margin-left: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+.krug .petka {
+    font-size: 30px;
+    padding-top: 6px;
+    color: #8bc058;
+}
+
+.yellow {
+    display: block;
+    width: 240px;
+    height: 100%;
+    margin-left: 109px;
+}
+
+.aftermaking {
+    font-size: 14px;
+    display: block;
+    padding: 36px 0 0 0;
+    text-align: left;
+    color: #7f8187;
+}
+.the {
+    font-size: 14px;
+    font-size: 14px;
+    text-align: left;
+    color: #7f8187;
+    padding-top: 6px;
+}
+
+.dolen-del img {
+    float: right;
+    padding: 36px 60px 0 0;
+}
+
+
+
+/**----------------------**/
+
+
+
+.summer-drinks {
+    width: 1090px;
+    height: 343px;
+    background-image: url(images/kokteli.png);
+    float:left;
+    margin: 40px 0 40px 0 ;
+}
+.wow {
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.bow {
+    width: 100%;
+    height: 70px;
+}
+
+.letni {
+    float: right;
+    color: #abb6bf;
+    padding: 60px 337px 0 0;
+}
+.glaven-naslov {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #484a51;
+    padding: 5px 96px 0 0;
+}
+
+.cow {
+    width: 100%;
+    height: 38px;
+}
+.cow img {
+    float: right;
+    padding: 10px 284px 0 0;
+}
+
+.now {
+    width: 100%;
+    height: 67px;
+}
+.recipe {
+    width: 94px;
+    height: 32px;
+    float: right;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #8bc058;
+    cursor: pointer;
+    margin: 25px 337px 0 0;
+}
