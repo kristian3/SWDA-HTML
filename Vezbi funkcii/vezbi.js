@@ -68,4 +68,6 @@ function enterSite(age) {
 
  // za doma = for ciklus sto ke go pecati sekoj tret paren broj do 100, ne smeeme da koristime i = i + 6
 
+ // var count = 0 ------- ova treba da se sredi prvo
+
 
