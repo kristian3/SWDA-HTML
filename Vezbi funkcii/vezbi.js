@@ -71,3 +71,12 @@ function enterSite(age) {
  // var count = 0 ------- ova treba da se sredi prvo
 
 
+ var count = 6;
+
+ for(var i = 0; i < 100; i++) {
+     if(i % 2 != 0) {
+         console.log(i);
+     }
+ }
+
+
