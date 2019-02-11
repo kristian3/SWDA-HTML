@@ -4,18 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    
+    
     
 </head>
 <body>
-    <input class="a" type="range" min="0" max="100" value="10" step="10">
-        <option value="10"></option>
-        <option value="20"></option>
-        <option value="30"></option>
-        <option value="40"></option>
-        <option value="50"></option>
+
+    
+    <input class="a" type="range" id="range" min="10" max="100">
     <div class="kocka"></div>
+    <hr/>
+
+
+
+
+    <!-------BMI-->
+    <div class="bmi">
+        <input id="whgt" type="text" placeholder="weight in kg" />
+        <input id="hght" type="text" placeholder="height in m" />
+        <button id="calc">Calculator</button>
+        <h2 id="result">Your result will appear here...</h2>
+    </div>
+
+
+    <!--------converter-->
+    <hr/>
+
+    <div class="currency-converter">
+    <input type="text" id="amount" placeholder="Enter Amount" />
+    <select name="curency" id="curency">
+        <option selected value="usd">USD</option>
+        <option value="eur">EUR</option>
+        </select>
+        <button id="convert">Convert</button>
+        <h2 id="result">Conversion in MKD:</h2>
+    </div>
+
+    <script type="text/javascript" src="./index.js"></script>
+
+
+
 </body>
 </html>
