@@ -29,7 +29,7 @@ var button = document.querySelector("#calc");
 var result = document.querySelector("#result");
 
 button.addEventListener("click", function(){
-    result.innerHTML = parseInt(wght.value) / (parseInt(hght.value * parseInt(hght.value));
+    result.innerHTML = parseInt(wght.value) / (parseInt(hght.value) * parseInt(hght.value))
 });
 
 
