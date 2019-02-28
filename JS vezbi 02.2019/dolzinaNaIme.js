@@ -2,12 +2,12 @@ var ime  = document.querySelector(".ime");
 var kopce = document.querySelector(".kopce");
 
 
-document.addEventListener("click", function(){
-if(ime.length <= 5){
-    console.log("Kratko ime");
-} else if(ime.length >=5  && ime.length <=8){
-    console.log("Ime so sredna golemina");
-} else if(ime.length > 8){
-    console.log("Dolgo ime");
+kopce.addEventListener("click", function(){
+if(ime.value.length > 0 && ime.value.lenght <= 5){
+    alert("Kratko ime");
+} else if(ime.value.length >=5  && ime.value.length <=8){
+    alert("Ime so sredna golemina");
+} else if(ime.value.length > 8){
+    alert("Dolgo ime");
 }
-})
+});
